@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <title>ISS Detector</title>
+</head>
+<body>
+    <div>
+        <h1>ISS Detector</h1>
+        <!-- My position -->
+        <div id="details">
+            <div>
+                Your time :
+                <span class="my-time"></span>
+            </div>
+            <!-- Latitude -->
+            <div>
+                Your Latitude :
+                <span class="my-latitude"></span>
+            </div>
+            <!-- Longitude -->
+            <div>
+                Your Longitude :
+                <span class="my-longitude"></span>
+            </div>
+            <!-- Visible in position -->
+            <!-- <div>
+                Visible in :
+                <span class="my-visible"></span>
+            </div> -->
+        </div>
+        <!-- MAP -->
+        <div id="map-div"></div>
+        <!-- Detail about iss -->
+        <div id="details">
+            <!-- TIME -->
+            <div>
+                Time :
+                <span class="time"></span>
+            </div>
+            <!-- Latitude -->
+            <div>
+                Latitude :
+                <span class="latitude"></span>
+            </div>
+            <!-- Longitude -->
+            <div>
+                Longitude :
+                <span class="longitude"></span>
+            </div>
+            <!-- Speed -->
+            <div>
+                Speed :
+                <span class="speed"></span>
+            </div>
+            <!-- Altitude -->
+            <div>
+                Altitude :
+                <span class="altitude"></span>
+            </div>
+            <!-- Visibility -->
+            <div>
+                Visibility :
+                <span class="visibility"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <script src="script.js"></script>
+</body>
+</html>
